@@ -29,4 +29,3 @@ if [ ${1:+x} ]; then
 else
 	help
 fi
-	
