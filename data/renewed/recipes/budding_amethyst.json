@@ -1,0 +1,20 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "misc",
+	"pattern": [
+		"AAA",
+		"ASA",
+		"AAA"
+	],
+	"key": {
+		"A": {
+			"item": "minecraft:amethyst_block"
+		},
+		"S": {
+			"item": "minecraft:spawner"
+		}
+	},
+	"result": {
+		"item": "minecraft:budding_amethyst"
+	}
+}
