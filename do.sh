@@ -3,7 +3,7 @@
 VERSION=1.0.0
 MINECRAFT_VERSION=1.19.3
 
-ZIP_NAME="renewed-${VERSION}-${MINECRAFT_VERSION}.zip"
+ZIP_NAME="renewed-test${VERSION}-${MINECRAFT_VERSION}.zip"
 
 print_info() {
 	printf "\e[1;35m$1\e[0m - \e[0;37m$2\e[0m\n"
