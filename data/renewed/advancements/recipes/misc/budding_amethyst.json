@@ -15,7 +15,7 @@
 		},
 		"has_the_recipe": {
 			"conditions": {
-				"recipe": "minecraft:budding_amethyst"
+				"recipe": "renewed:budding_amethyst"
 			},
 			"trigger": "minecraft:recipe_unlocked"
 		}
@@ -28,7 +28,7 @@
 	],
 	"rewards": {
 		"recipes": [
-			"minecraft:budding_amethyst"
+			"renewed:budding_amethyst"
 		]
 	}
 }
