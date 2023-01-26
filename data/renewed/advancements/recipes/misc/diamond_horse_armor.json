@@ -1,0 +1,47 @@
+{
+	"parent": "renewed:recipes/root",
+	"criteria": {
+		"has_leather_horse_armor": {
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:leather_horse_armor"
+						]
+					}
+				]
+			},
+			"trigger": "minecraft:inventory_changed"
+		},
+		"has_diamond": {
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:diamond"
+						]
+					}
+				]
+			},
+			"trigger": "minecraft:inventory_changed"
+		},
+		"has_the_recipe": {
+			"conditions": {
+				"recipe": "renewed:diamond_horse_armor"
+			},
+			"trigger": "minecraft:recipe_unlocked"
+		}
+	},
+	"requirements": [
+		[
+			"has_leather_horse_armor",
+			"has_diamond",
+			"has_the_recipe"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"renewed:diamond_horse_armor"
+		]
+	}
+}
