@@ -1,0 +1,60 @@
+{
+	"parent": "renewed:recipes/root",
+	"criteria": {
+		"has_gold_nugget": {
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:gold_nugget"
+						]
+					}
+				]
+			},
+			"trigger": "minecraft:inventory_changed"
+		},
+		"has_blackstone": {
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:blackstone"
+						]
+					}
+				]
+			},
+			"trigger": "minecraft:inventory_changed"
+		},
+		"has_gilded_blackstone": {
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:gilded_blackstone"
+						]
+					}
+				]
+			},
+			"trigger": "minecraft:inventory_changed"
+		},
+		"has_the_recipe": {
+			"conditions": {
+				"recipe": "renewed:gilded_blackstone"
+			},
+			"trigger": "minecraft:recipe_unlocked"
+		}
+	},
+	"requirements": [
+		[
+			"has_gold_nugget",
+			"has_blackstone",
+			"has_gilded_blackstone",
+			"has_the_recipe"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"renewed:gilded_blackstone"
+		]
+	}
+}

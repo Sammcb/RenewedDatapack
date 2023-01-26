@@ -1,0 +1,47 @@
+{
+	"parent": "renewed:recipes/root",
+	"criteria": {
+		"has_string": {
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:string"
+						]
+					}
+				]
+			},
+			"trigger": "minecraft:inventory_changed"
+		},
+		"has_cobweb": {
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:cobweb"
+						]
+					}
+				]
+			},
+			"trigger": "minecraft:inventory_changed"
+		},
+		"has_the_recipe": {
+			"conditions": {
+				"recipe": "renewed:cobweb"
+			},
+			"trigger": "minecraft:recipe_unlocked"
+		}
+	},
+	"requirements": [
+		[
+			"has_string",
+			"has_cobweb",
+			"has_the_recipe"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"renewed:cobweb"
+		]
+	}
+}
