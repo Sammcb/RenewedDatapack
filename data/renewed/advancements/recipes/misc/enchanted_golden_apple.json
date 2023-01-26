@@ -1,0 +1,60 @@
+{
+	"parent": "renewed:recipes/root",
+	"criteria": {
+		"has_apple": {
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:apple"
+						]
+					}
+				]
+			},
+			"trigger": "minecraft:inventory_changed"
+		},
+		"has_gold_block": {
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:gold_block"
+						]
+					}
+				]
+			},
+			"trigger": "minecraft:inventory_changed"
+		},
+		"has_enchanted_golden_apple": {
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:enchanted_golden_apple"
+						]
+					}
+				]
+			},
+			"trigger": "minecraft:inventory_changed"
+		},
+		"has_the_recipe": {
+			"conditions": {
+				"recipe": "renewed:enchanted_golden_apple"
+			},
+			"trigger": "minecraft:recipe_unlocked"
+		}
+	},
+	"requirements": [
+		[
+			"has_apple",
+			"has_gold_block",
+			"has_enchanted_golden_apple",
+			"has_the_recipe"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"renewed:enchanted_golden_apple"
+		]
+	}
+}
