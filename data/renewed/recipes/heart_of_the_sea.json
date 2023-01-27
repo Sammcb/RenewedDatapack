@@ -1,0 +1,20 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "misc",
+	"pattern": [
+		"PPP",
+		"PSP",
+		"PPP"
+	],
+	"key": {
+		"P": {
+			"item": "minecraft:prismarine_crystals"
+		},
+		"S": {
+			"item": "minecraft:scute"
+		}
+	},
+	"result": {
+		"item": "minecraft:heart_of_the_sea"
+	}
+}
