@@ -1,0 +1,60 @@
+{
+	"parent": "renewed:recipes/root",
+	"criteria": {
+		"has_scute": {
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:scute"
+						]
+					}
+				]
+			},
+			"trigger": "minecraft:inventory_changed"
+		},
+		"has_prismarine_crystals": {
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:prismarine_crystals"
+						]
+					}
+				]
+			},
+			"trigger": "minecraft:inventory_changed"
+		},
+		"has_heart_of_the_sea": {
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:heart_of_the_sea"
+						]
+					}
+				]
+			},
+			"trigger": "minecraft:inventory_changed"
+		},
+		"has_the_recipe": {
+			"conditions": {
+				"recipe": "renewed:heart_of_the_sea"
+			},
+			"trigger": "minecraft:recipe_unlocked"
+		}
+	},
+	"requirements": [
+		[
+			"has_scute",
+			"has_prismarine_crystals",
+			"has_heart_of_the_sea",
+			"has_the_recipe"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"renewed:heart_of_the_sea"
+		]
+	}
+}
