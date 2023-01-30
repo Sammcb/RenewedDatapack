@@ -1,0 +1,8 @@
+{
+	"type": "minecraft:stonecutting",
+	"count": 3,
+	"ingredient": {
+		"tag": "minecraft:music_discs"
+	},
+	"result": "minecraft:disc_fragment_5"
+}
