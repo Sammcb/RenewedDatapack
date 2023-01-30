@@ -1,0 +1,41 @@
+{
+	"parent": "renewed:recipes/root",
+	"criteria": {
+		"has_music_disc": {
+			"conditions": {
+				"tag": "minecraft:music_disks"
+			},
+			"trigger": "minecraft:inventory_changed"
+		},
+		"has_disc_fragment_5": {
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:disc_fragment_5"
+						]
+					}
+				]
+			},
+			"trigger": "minecraft:inventory_changed"
+		},
+		"has_the_recipe": {
+			"conditions": {
+				"recipe": "renewed:disc_fragment_5"
+			},
+			"trigger": "minecraft:recipe_unlocked"
+		}
+	},
+	"requirements": [
+		[
+			"has_music_disc",
+			"has_disc_fragment_5",
+			"has_the_recipe"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"renewed:disc_fragment_5"
+		]
+	}
+}
